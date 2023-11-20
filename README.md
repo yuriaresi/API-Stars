@@ -1,27 +1,41 @@
-# React + TypeScript + Vite
+# The Galaxy 🪐 - Sistema Solar Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um aplicativo React que explora informações sobre corpos celestes do sistema solar, como estrelas, planetas, planetas anões, asteroides, cometas e luas, consumindo dados de uma API.
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O aplicativo exibe informações sobre os corpos celestes do sistema solar, permitindo aos usuários pesquisar estrelas, planetas, cometas, asteroides, luas, entre outros, e filtrar esses corpos celestes por tipo e nome.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Exibição de informações sobre os corpos celestes do sistema solar.
+- Pesquisa de corpos celestes pelo nome.
+- Filtragem de corpos celestes por tipo: estrela, planeta, planeta anão, asteroide, cometa, lua, entre outros.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- React
+- Axios
+- Styled Components
+- CSS
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Estrutura do Código
+
+- `components`: Contém componentes reutilizáveis para apresentação dos corpos celestes.
+- `App.js`: Página principal do aplicativo que consome a API e exibe os dados dos corpos celestes.
+
+## Como Utilizar
+
+1. Clone este repositório em sua máquina local.
+2. Abra um terminal na pasta do projeto e execute `npm install` para instalar as dependências.
+3. Execute `npm start` para iniciar o servidor de desenvolvimento.
+4. Acesse o aplicativo no navegador através do link `http://localhost:3000`.
+
+## API Utilizada
+
+O aplicativo consome a API do Sistema Solar para obter informações sobre os corpos celestes. [API do Sistema Solar](https://api.le-systeme-solaire.net/rest/bodies/)
+
+## Autor
+
+Este projeto foi desenvolvido por [Yuri Aresi](https://www.linkedin.com/in/yuriaresi/) como parte de um exercício prático.
+
