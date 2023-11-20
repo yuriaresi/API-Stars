@@ -28,8 +28,8 @@ O aplicativo exibe informações sobre os corpos celestes do sistema solar, perm
 
 1. Clone este repositório em sua máquina local.
 2. Abra um terminal na pasta do projeto e execute `npm install` para instalar as dependências.
-3. Execute `npm start` para iniciar o servidor de desenvolvimento.
-4. Acesse o aplicativo no navegador através do link `http://localhost:3000`.
+3. Execute `npm run dev` para iniciar o servidor de desenvolvimento.
+4. Acesse o aplicativo no navegador através do link `http://localhost:5173/`.
 
 ## API Utilizada
 
